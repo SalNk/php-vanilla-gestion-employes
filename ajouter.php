@@ -11,7 +11,7 @@
     <?php
        //vérifier que le bouton ajouter a bien été cliqué
        if(isset($_POST['button'])){
-           //extraction des informations envoyé dans des variables par la methode POST
+           //extraction des informations envoyés dans des variables par la methode POST
            extract($_POST);
            //verifier que tous les champs ont été remplis
            if(isset($nom) && isset($prenom) && $age){
